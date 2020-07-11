@@ -1,0 +1,9 @@
+<manifest ....>
+
+    <uses-permission Android:name="Android.permission.BLUETOOTH_ADMIN" />
+    <uses-permission Android:name="Android.permission.BLUETOOTH" />
+    <application>
+
+
+    </application>
+</manifest>

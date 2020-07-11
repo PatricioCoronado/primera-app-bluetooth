@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:Android="http://schemas.Android.com/apk/res/Android"
+xmlns:tools="http://schemas.Android.com/tools"
+Android:layout_width="fill_parent"
+Android:layout_height="fill_parent"
+tools:ignore="TextFields,HardcodedText" >
+
+<TextView
+    Android:id="@+id/label"
+    Android:layout_width="fill_parent"
+    Android:layout_height="wrap_content"
+    Android:text="Type here:" />
+
+<EditText
+    Android:id="@+id/entry"
+    Android:layout_width="fill_parent"
+    Android:layout_height="wrap_content"
+    Android:layout_below="@id/label"
+    Android:background="@Android:drawable/editbox_background" />
+
+<Button
+    Android:id="@+id/open"
+    Android:layout_width="wrap_content"
+    Android:layout_height="wrap_content"
+    Android:layout_alignParentRight="true"
+    Android:layout_below="@id/entry"
+    Android:layout_marginLeft="10dip"
+    Android:text="Open" />
+
+<Button
+    Android:id="@+id/send"
+    Android:layout_width="wrap_content"
+    Android:layout_height="wrap_content"
+    Android:layout_alignTop="@id/open"
+    Android:layout_toLeftOf="@id/open"
+    Android:text="Send" />
+
+<Button
+    Android:id="@+id/close"
+    Android:layout_width="wrap_content"
+    Android:layout_height="wrap_content"
+    Android:layout_alignTop="@id/send"
+    Android:layout_toLeftOf="@id/send"
+    Android:text="Close" />

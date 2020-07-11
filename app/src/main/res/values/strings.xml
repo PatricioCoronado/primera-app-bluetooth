@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Control Remoto</string>
+    <string name="strconten">IMAGEN</string>
+    <string name="strdes">DESCONECTAR</string>
+    <string name="strmensaje">*IDN?</string>
+    <string name="strrespuesta">Respuesta</string>
+
+</resources>
