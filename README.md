@@ -1,3 +1,5 @@
+Proyecto realizado con 
+# Android Studio 4
 Este es el primer intento de utilizar bluetooth en Android para comunicar con Arduino.
 Es solo una prueba de concepto.
 
